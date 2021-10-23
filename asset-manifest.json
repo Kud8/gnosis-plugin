@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/gnosis-plugin/static/css/main.766c2183.chunk.css",
+    "main.js": "/gnosis-plugin/static/js/main.0a6a0a20.chunk.js",
+    "main.js.map": "/gnosis-plugin/static/js/main.0a6a0a20.chunk.js.map",
+    "runtime-main.js": "/gnosis-plugin/static/js/runtime-main.776adb9c.js",
+    "runtime-main.js.map": "/gnosis-plugin/static/js/runtime-main.776adb9c.js.map",
+    "static/js/2.e297d044.chunk.js": "/gnosis-plugin/static/js/2.e297d044.chunk.js",
+    "static/js/2.e297d044.chunk.js.map": "/gnosis-plugin/static/js/2.e297d044.chunk.js.map",
+    "index.html": "/gnosis-plugin/index.html",
+    "static/css/main.766c2183.chunk.css.map": "/gnosis-plugin/static/css/main.766c2183.chunk.css.map",
+    "static/js/2.e297d044.chunk.js.LICENSE.txt": "/gnosis-plugin/static/js/2.e297d044.chunk.js.LICENSE.txt",
+    "static/media/averta-bold.woff2": "/gnosis-plugin/static/media/averta-bold.8fdcd8d4.woff2",
+    "static/media/averta-normal.woff2": "/gnosis-plugin/static/media/averta-normal.39d04879.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.776adb9c.js",
+    "static/js/2.e297d044.chunk.js",
+    "static/css/main.766c2183.chunk.css",
+    "static/js/main.0a6a0a20.chunk.js"
+  ]
+}
