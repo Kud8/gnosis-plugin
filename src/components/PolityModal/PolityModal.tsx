@@ -19,6 +19,8 @@ export const PolityModal = ({isModalOpened, onClose, style}: NewOwnerModalProps)
     return null;
   }
 
+  const weightSum = defaultPolity.reduce((acc, v) => acc + v.weight, 0);
+  const minimalWeight = weightSum;
 
   return (
     <Modal
@@ -52,6 +54,12 @@ export const PolityModal = ({isModalOpened, onClose, style}: NewOwnerModalProps)
               </TableBody>
             </Table>
           </TableContainer>
+        </div>
+        <div className="footer">
+          <div>Any transaction requires the confirmation of:</div>
+          <div className="information">
+            <span className="number">{minimalWeight}</span> of <span className="number">{weightSum}</span> weight in sum
+          </div>
         </div>
       </div>
     </Modal>

@@ -29,4 +29,20 @@
   .content {
     margin-top: 50px;
   }
+
+  .footer {
+    font-size: 14px;
+    padding-top: 30px;
+
+    .information {
+      padding-top: 4px;
+      font-size: 16px;
+      color: #B2B5B2;
+
+      span {
+        font-weight: bold;
+        color: black;
+      }
+    }
+  }
 }
