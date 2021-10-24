@@ -42,6 +42,14 @@ export const NewOwnerModal = ({isModalOpened, onClose, style}: NewOwnerModalProp
     }
   }, [isAdded]);
 
+  useEffect(() => {
+    if (!isModalOpened) {
+      setOwnerName(null);
+      setOwnerAddress(null);
+      setOwnerWeight(null);
+    }
+  }, [isModalOpened])
+
   if (!isModalOpened) {
     return null;
   }
