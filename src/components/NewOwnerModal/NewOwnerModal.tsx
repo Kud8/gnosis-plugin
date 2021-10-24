@@ -28,6 +28,7 @@ export const NewOwnerModal = ({isModalOpened, onClose, style}: NewOwnerModalProp
   }
 
   const handleAddNewOwner = () => {
+    setIsAded(false);
     setIsAdding(true);
     setTimeout(() => {
       setIsAdding(false);
@@ -44,6 +45,8 @@ export const NewOwnerModal = ({isModalOpened, onClose, style}: NewOwnerModalProp
 
   useEffect(() => {
     if (!isModalOpened) {
+      setIsAded(false);
+      setIsAdding(false);
       setOwnerName(null);
       setOwnerAddress(null);
       setOwnerWeight(null);
