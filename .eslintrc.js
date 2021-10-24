@@ -4,7 +4,6 @@ module.exports = {
     "plugin:@typescript-eslint/recommended",
     "prettier",
     "react-app",
-    "plugin:jsx-a11y/recommended",
   ],
   plugins: ["jsx-a11y"],
   parserOptions: {
@@ -15,7 +14,7 @@ module.exports = {
     "@typescript-eslint/camelcase": "off",
     "@typescript-eslint/no-var-requires": "off",
     "@typescript-eslint/no-unused-vars": [
-      "error",
+      "warn",
       { ignoreRestSiblings: true },
     ],
   },

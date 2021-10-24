@@ -1,0 +1,43 @@
+.new-owner-modal {
+  font-family: 'Averta', sans-serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  padding: 24px;
+  box-sizing: border-box;
+
+  width: 700px;
+
+  border-radius: 8px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(40, 54, 61, 0.2) 1px 2px 10px 0;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+  }
+
+  .close-button {
+    font-size: 20px;
+    font-family: 'Averta', sans-serif;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.54);
+  }
+
+  .content {
+    margin-top: 50px;
+
+    .input {
+      max-width: 500px;
+      margin-bottom: 50px;
+    }
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+}
