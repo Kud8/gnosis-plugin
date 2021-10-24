@@ -38,6 +38,7 @@ export const NewOwnerModal = ({isModalOpened, onClose, style}: NewOwnerModalProp
   useEffect(() => {
     if (isAdded) {
       addNotification("Owner added", "success", `Owner with address ${getShortAddress(ownerAddress)} successfully added`);
+      onClose();
     }
   }, [isAdded]);
 
